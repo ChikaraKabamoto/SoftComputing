@@ -110,7 +110,7 @@ void MemoryAllocation(int point)
             subpoint_combination[i]=(int *)malloc((point+2)*sizeof(int));
         }
 }
- /*移動時間配列の初期化*/
+ /*移動距離配列の初期化*/
 void InitTimeArray(int point)
  {
    int i,j;
@@ -122,7 +122,7 @@ void InitTimeArray(int point)
          }
     }
  }
- /*移動時間の設定*/
+ /*移動距離の設定*/
 void TimeSetting(int point)
   { 
      int i,j;
@@ -133,7 +133,7 @@ void TimeSetting(int point)
              }while(*(*(time_info+i)+j)<5);
       }
   }
- /*各地点の移動時間を表示*/
+ /*各地点の移動距離を表示*/
 void PrintTravelTime(int point)
 {
    int i,j;
