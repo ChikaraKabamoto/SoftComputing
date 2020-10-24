@@ -1,5 +1,5 @@
-・実行環境によってコアダンプを起こす可能性があります。原因は不明です。
+-A core dump may occur depending on the execution environment. The cause is unknown.
 
-・math.h をインクルードしているためコンパイル時には-lmオプションが必要です。
+-Since math.h is included, the -lm option is required at compile time.
 
-・実行すると地点数を求められるので、適当に値を入力してください。
+-When you execute it, you will be asked for the number of points, so enter the appropriate value.
